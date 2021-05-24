@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body class="body1">
+        <div class="topnav">
+            <a href="mainpage.php">Home</a>
+            <a href="login.html">Login</a>
+            <a  href="registration.html">Register</a>
+          </div> 
+        
+        <form action="verification.php" method="POST" class="infoBlockL">
+        <div>
+            <h1>Login</h1>
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter Username" required>
+        </div>
+        <div>
+            <label for="password1">Password</label>
+            <input type="password" name="password1" id="password1" placeholder="Enter Password" required>
+        </div>
+        <div>
+            <button type="submit" name="login" class="select2">Login</button>
+        </div>
+        <div>
+             Don't have an acount? <a href="registration.html" > Register</a>
+        </div>
+       </form>
+
+      
+
+
+    </body>
+
+</html>
